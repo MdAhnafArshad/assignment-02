@@ -258,6 +258,7 @@
         color: var(--color-white);
         transform: scale(1.05,1.05);
     }
+    
     .container h3{
         font-weight: 600;
         font-size: 45px;
@@ -271,7 +272,6 @@
 
     .banner-5{
         padding: 50px;
-        background-color: ;
     }
     .bonus-mark{
         padding: 10px;
@@ -435,11 +435,4 @@
        };
     }
 
-
-
-
-
-
-    .display{
-        display: none;
-    }
+    
