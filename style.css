@@ -227,7 +227,7 @@
         flex-direction: column;
         justify-content: left;
         row-gap: 20px;
-        border: 1px solid;
+        /* border: 1px solid; */
     }
     .last-section > h3{
         font-weight: 700;
@@ -251,6 +251,12 @@
         align-items: center;
         justify-content:center;
         row-gap: 10px;
+        transition: transform 1s;
+    }
+    .container:hover{
+        background-color: var(--dark-2);
+        color: var(--color-white);
+        transform: scale(1.05,1.05);
     }
     .container h3{
         font-weight: 600;
@@ -265,6 +271,7 @@
 
     .banner-5{
         padding: 50px;
+        background-color: ;
     }
     .bonus-mark{
         padding: 10px;
@@ -272,7 +279,7 @@
         flex-direction: column;
         justify-content: left;
         row-gap: 20px;
-        border: 1px solid;
+        /* border: 1px solid; */
     }
     .banner-5 h3{
         font-weight: 700;
@@ -290,7 +297,7 @@
         justify-content: center;
         align-items: center;
         row-gap: 20px;
-        border: 1px solid;
+        /* border: 1px solid; */
         padding: 20px;
     }
 
@@ -342,7 +349,7 @@
         row-gap: 20px;
        }
        nav ul li{
-        border: 1px solid var(--dark-2);
+        /* border: 1px solid var(--dark-2); */
        }
        /* ----------------------------------------------- */
        /* banner-1 */
