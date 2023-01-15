@@ -127,7 +127,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items:flex-start;
         row-gap:15px; 
         padding: 20px 
     }
@@ -261,7 +260,7 @@
         color: var(--dark-2);
     }
 
-    /* --------------------- */
+    /* -------------------------------- */
     /* banner-5 */
 
     .banner-5{
@@ -345,6 +344,7 @@
        nav ul li{
         border: 1px solid var(--dark-2);
        }
+       /* ----------------------------------------------- */
        /* banner-1 */
        .titleSection{
         row-gap: 10px;
@@ -355,17 +355,77 @@
             height: 225px;
             padding: 10px 20px;
        }
+       /* main section */
+       main{
+        padding: 0;
+        }
 
-
+    /*---------------- -------------------------------- */
        /* banner-2 */
        .banner-2{
         flex-direction: column;
         row-gap: 10px;
        }
        .gallery-section{
-
+            grid-template-columns: repeat(1, 1fr);
        }
-       
+       .text-section{
+        align-items:center;
+       }
+       .text-Description{
+            text-align: center;
+       }
+/* ------------------------------------------------- */
+       /* .banner-3 */
+       .banner-3{
+        flex-direction: column-reverse;
+       }
+       .img-section img{
+        width: 600px;
+        height: 800px;
+        border: 1px solid;
+       }
+       .features{
+        width: 600px;
+        padding: 0;
+       }
+/* --------------------------------------------------- */
+       /* banner-4 */
+       .banner-4{
+        padding: 0;
+       }
+       .last-section{
+        border:0;
+        padding: 20px;
+       }
+       .boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+       }
+       /* ------------------------------------- */
+       /* banner-5 */
+       .banner-5{
+        padding: 0;
+       }
+       .bonus-mark{
+        padding: 50px;
+        border: 0;
+       }
+       /* --------------------------------------- */
+       /* footer-section */
+       footer{
+        border: 0;
+       }
+       .sponsors{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+       }
+       .sponsors img{
+            width: 200px
+       };
     }
 
 
