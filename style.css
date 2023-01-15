@@ -73,6 +73,11 @@
         align-items: center;
         row-gap: 20px;
     }
+    .titleSection{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    }
     .header-title{
         font-weight: 700;
         font-size: 64px;
@@ -99,14 +104,14 @@
     /*banner-2 style */
     .banner-2{
         padding: 10px 20px; 
-        width: 100%;
+        /* width: 100%; */
         display: flex;
         align-items: center;
         /* justify-content: center; */
     }
     /* gallery section */
     .gallery-section{
-        width: 50%;
+        /* width: 50%; */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
@@ -118,12 +123,13 @@
 
     /* text section */
     .text-section{
-        width: 50%;
+        /* width: 50%; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items:flex-start;
-        row-gap:15px;  
+        row-gap:15px; 
+        padding: 20px 
     }
     .text-1{
         font-weight: 500;
@@ -255,7 +261,29 @@
         color: var(--dark-2);
     }
 
+    /* --------------------- */
+    /* banner-5 */
 
+    .banner-5{
+        padding: 50px;
+    }
+    .bonus-mark{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        row-gap: 20px;
+        border: 1px solid;
+    }
+    .banner-5 h3{
+        font-weight: 700;
+        font-size: 45px;
+    }
+    .banner-5 p{
+        color:var(--dark-2);
+    }
+
+    /* .................................................... */
     /* footer section */
     footer{
         display: flex;
@@ -289,4 +317,62 @@
         justify-content: center;
         padding: 20px;
         background-color: var(--background);
+    }
+
+
+
+
+    /* responsive */
+    @media only screen  and (max-width:576px){
+
+        *{
+            background-position: center;
+            background-size: auto;
+        }
+        .primary-font{
+            font-weight: 200;
+            font-size: 50px;
+        }
+        
+        /* --------------------------------- */
+       /* nav bar */
+       nav, ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+       }
+       nav ul li{
+        border: 1px solid var(--dark-2);
+       }
+       /* banner-1 */
+       .titleSection{
+        row-gap: 10px;
+        text-align: center;
+       }
+       .banner-1 img{
+            width: 575px;
+            height: 225px;
+            padding: 10px 20px;
+       }
+
+
+       /* banner-2 */
+       .banner-2{
+        flex-direction: column;
+        row-gap: 10px;
+       }
+       .gallery-section{
+
+       }
+       
+    }
+
+
+
+
+
+
+    .display{
+        display: none;
     }
